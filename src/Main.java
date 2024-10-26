@@ -43,9 +43,6 @@ public class Main {
 
         System.out.println(Arrays.toString(salaryArray));
 
-        for (int salary : salaryArray) {
-            salarySum += salary;
-        }
         System.out.println("Средняя сумма трат за месяц составила " + (double) salarySum / salaryArray.length + " рублей.");
 
         // task 4
